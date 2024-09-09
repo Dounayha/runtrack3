@@ -6,7 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    test
+<script>
+        alert('Hello Javascript!');
+    </script>
     
 </body>
 </html>
