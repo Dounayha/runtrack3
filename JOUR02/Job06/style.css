@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body.konami-active {
+    background-color: #3077bf; 
+    color: white; 
+}
+
+/* Stylisation du contenu une fois le code Konami activé */
+#content.konami-active {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.konami-active h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+.konami-active p {
+    font-size: 1.5em;
+}
